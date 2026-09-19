@@ -1,0 +1,20 @@
+{
+  "status":"complete",
+  "source_version":"m4-2026-09-18",
+  "seed":237,
+  "sizes":[128,256,512,1024],
+  "kernels":"all",
+  "warmups":5,
+  "measured_runs":30,
+  "tile":16,
+  "build_options":"-cl-std=CL1.2",
+  "input_range":"[-8,7]",
+  "kernel_order":"INT32,INT8,INT4",
+  "timing":{"kernel_ms":"OpenCL event END-START","device_path_ms":"host monotonic H2D-through-D2H","pack_a_b_ms":"host monotonic for both INT4 packs"},
+  "platform":"QUALCOMM Snapdragon(TM)",
+  "device":"QUALCOMM Adreno(TM) 643",
+  "driver_version":"OpenCL 3.0 QUALCOMM build: 0838.2 Compiler E031.50.15.00",
+  "device_version":"OpenCL 3.0 Adreno(TM) 643",
+  "opencl_c_version":"OpenCL C 3.0 Adreno(TM) 643",
+  "environment":"board Adreno development container"
+}

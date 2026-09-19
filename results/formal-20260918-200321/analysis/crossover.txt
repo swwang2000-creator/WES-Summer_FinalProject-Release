@@ -1,0 +1,2 @@
+kernel: no INT4 crossover observed in tested sizes
+device_path: crossover observed between 256 and 512

@@ -1,0 +1,4 @@
+command=./build/gemm_bench --sizes 128 --kernels all --seed 237 --warmup 1 --runs 2 --output results/m4-smoke-20260918-191135
+device=initialized source=kernels/gemm_all.cl
+size=128 pack_a_b_ms=0.019895000
+status=complete

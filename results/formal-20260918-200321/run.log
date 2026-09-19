@@ -1,0 +1,7 @@
+command=./build/gemm_bench --sizes 128,256,512,1024 --kernels all --seed 237 --warmup 5 --runs 30 --output results/formal-20260918-200321
+device=initialized source=kernels/gemm_all.cl
+size=128 pack_a_b_ms=0.020676000
+size=256 pack_a_b_ms=0.091246000
+size=512 pack_a_b_ms=0.326395000
+size=1024 pack_a_b_ms=1.361724000
+status=complete

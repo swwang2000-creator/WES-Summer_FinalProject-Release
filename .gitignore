@@ -1,0 +1,18 @@
+# Rebuildable local binaries and intermediate objects
+build/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# Editor and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python cache created by the analysis script
+__pycache__/
+*.py[cod]
